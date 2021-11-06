@@ -6,12 +6,6 @@ from os.path import isfile, join
 import re
 
 def Images2Video (pathIn, pathOut, frameSize):
-
-    # frameSize = (256, 256)
-    # i = 3
-    # pathIn = f'./generated/rnn/{i}/'
-    # pathOut = f'video{i}.avi'
-
     files = [f for f in os.listdir(pathIn) if isfile(join(pathIn, f))]
     files.sort(key=lambda f: int(re.sub('\D', '', f)))
 
