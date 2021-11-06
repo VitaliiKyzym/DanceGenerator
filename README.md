@@ -6,5 +6,5 @@ Dance choreography is an art of producing a series of dance movements that match
 
 Research Presentation : https://www.youtube.com/watch?v=kh0_XZZAoVo
 
-Example of Generated Dance
+##### Example of Generated Dance
 ![Dance](TestGeneratedDance.gif)
